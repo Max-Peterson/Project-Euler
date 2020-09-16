@@ -52,7 +52,7 @@ def Problem_8():
     products = []
     for i in range(len(a)-length):
         subarr = a[i:i+13]
-        products.append(np.prod(subarr))
+        products.append(np.prod(subarr,None,float))
 
     print(max(products))
 
