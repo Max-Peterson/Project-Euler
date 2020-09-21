@@ -42,7 +42,7 @@ def factor(i):
             fact.append(p)
             num = num/p
         if num == 1:
-            if sum fact == 4:
+            if sum(fact) == 4:
                 return True
             else:
                 return False
