@@ -31,8 +31,8 @@ def Problem1():
     print(total)
 
 
-#alternatively one can use a single interation through the digits by using an OR and iterating through each digit this method although also 
-#brute force is still a massive run time efficiency improvement
+#alternatively one can use a single iteration through the digits by using an OR and iterating through each digit. This mehtod, although also 
+#brute force, affords a massive run time efficiency improvement.
 
 def Problem1_v2():
     sum1=0
@@ -43,7 +43,7 @@ def Problem1_v2():
 
 
 
-#alternatively the use of the formula ∑k=1/2n(n+1). will allow for a few simple math calculations rather than an iterative process and thus 
+#Finally the use of the formula ∑k=1/2n(n+1). will allow for a few simple math calculations rather than an iterative process and thus 
 #not scaling at runtime according to n other than byte size whereas this  previous strategy certainly has nth order scaling. However, it must be 
 #remembered that multiples of 15 are counted twice as they are multiples of both 3 and 5 and that is accounted for in the third term of the following
 
